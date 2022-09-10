@@ -1,0 +1,92 @@
+<head>
+  <title>Sentit aml</title>
+</head>
+<body>
+  <h1>Hi! im Sentit</h1>
+  <a class="l1"href="https://www.instagram.com/289.243/">Instagram</a>
+  <br>
+  <br>
+  <br>
+  <a class="r1" href="https://www.twitch.tv/st_nitzzy">Twitch</a>
+  <br>
+  <br>
+  <br>
+  <a class="l1" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Twitter</a>
+  <br>
+  <br>
+  <br>
+  <a class="r1" href="https://steamcommunity.com/profiles/76561199041682044/">Steam</a>
+</body>
+
+
+<style>  
+body{
+  background-color: rgba(35, 35, 35, 1);
+background-image: radial-gradient(circle, rgba(35, 35, 35, 1) 0%, rgba(10, 10, 10, 1) 100%);
+  text-align: center;
+  font-family: monospace;
+}
+
+h1{
+  color: #CACACA;
+  font-size: 43px;
+}
+
+h1:hover {
+  animation: myAnim 2s ease 0s 1 normal forwards;
+}
+@keyframes myAnim {
+	0% {
+		transform: scale(1);
+	}
+
+	50% {
+		transform: scale(1.1);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}
+a{
+  font-size: 25px;
+  color: #CACACA;
+}
+
+a:hover{
+  color: white;
+  font-size: 27px;
+}
+
+.l1{
+  animation: l1 1s ease 0s 1 normal forwards;
+}
+
+@keyframes l1 {
+	0% {
+		opacity: 0;
+		transform: translateX(-50px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+.r1{
+  animation: r1 1s ease 0s 1 normal forwards;
+}
+
+@keyframes r1 {
+	0% {
+		opacity: 0;
+		transform: translateX(50px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+</style>
